@@ -5,7 +5,7 @@ install:
 	@/usr/bin/cp -Rf cdr /var
 	@/usr/bin/chown nginx:pbx /var/cdr
 	echo -e "->\033[37m install cdr module               \033[32m [ OK ] \033[0m"
-	@/usr/bin/cp -Rf www /var
+	@/usr/bin/cp -Rf src /var/www
 	@/usr/bin/chown nginx:pbx /var/www
 	echo -e "->\033[37m install web module               \033[32m [ OK ] \033[0m"
 	@/usr/bin/mkdir -p /var/record
