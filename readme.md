@@ -94,12 +94,12 @@
 
 **安装 phpredis**
 
-  ~~$ git clone https://github.com/phpredis/phpredis.git
-    $ cd phpredis
-    $ phpize
-    $ ./configure
-    $ make
-    $ make install~~ 
+    ~~$ git clone https://github.com/phpredis/phpredis.git~~ 
+    ~~$ cd phpredis~~ 
+    ~~$ phpize~~ 
+    ~~$ ./configure~~ 
+    ~~$ make~~ 
+    ~~$ make install~~ 
    
 
 **安装 yaf 框架**
