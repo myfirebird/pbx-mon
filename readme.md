@@ -94,13 +94,21 @@
 
 **安装 phpredis**
 
-  ~~$ git clone https://github.com/phpredis/phpredis.git
-    $ cd phpredis 
-    $ phpize
-    $ ./configure
-    $ make
+  ~~$ git clone https://github.com/phpredis/phpredis.git<br>
+    $ cd phpredis <br>
+    $ phpize<br>
+    $ ./configure<br>
+    $ make<br>
     $ make install~~ 
-   
+    
+**以上安装phpredis的命令已失效，新版phpredis已不再支持PHP5版本；改用以下安装命令安装phpredis**
+
+    $ wget -O phpredis-4.3.0.tar.gz https://github.com/phpredis/phpredis/archive/4.3.0.tar.gz
+    $ tar xvfz phpredis-4.3.0.tar.gz
+    $ cd phpredis-4.3.0.tar.gz
+    $ phpize && ./configure && make && sudo make install
+    
+**phpredis-4.3.0是php5最后支持的版本**
 
 **安装 yaf 框架**
 
