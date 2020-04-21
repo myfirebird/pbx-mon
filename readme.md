@@ -100,6 +100,7 @@
     $ ./configure
     $ make
     $ make install
+    >>~~hello~~<< 
 
 **安装 yaf 框架**
 
