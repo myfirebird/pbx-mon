@@ -68,6 +68,7 @@
 
     $ groupadd pbx
     $ usermod -g pbx nginx
+    $ usermod -g pbx apache
     $ git clone https://github.com/typefo/pbx-mon.git
 
 **编译安装 FreeSWITCH**
