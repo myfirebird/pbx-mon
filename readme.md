@@ -94,12 +94,10 @@
 
 **安装 phpredis**
 
-    $ git clone https://github.com/phpredis/phpredis.git
-    $ cd phpredis
-    $ phpize
-    $ ./configure
-    $ make
-    $ make install
+    $ wget -O phpredis-4.3.0.tar.gz https://github.com/phpredis/phpredis/archive/4.3.0.tar.gz
+    $ tar xvfz phpredis-4.3.0.tar.gz
+    $ cd phpredis-4.3.0.tar.gz
+    $ phpize && ./configure && make && sudo make install
 
 **安装 yaf 框架**
 
