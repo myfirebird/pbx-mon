@@ -127,3 +127,8 @@
     Account : admin
     Password: pbxmon
 
+#### 捐助作者
+
+如果这个项目对您有所帮助，可以考虑用一下方式捐赠和打赏作者，将不胜感激！
+
+![donate](https://typefo.com/assets/img/donate.png)
