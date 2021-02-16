@@ -127,8 +127,6 @@
     Account : admin
     Password: pbxmon
 
-#### ❤ 捐助作者
+### ❤ 赞助商 4bit
 
-如果这个项目对您有所帮助，可以考虑用以下方式捐赠或打赏作者，将不胜感激！
-
-![donate](https://typefo.com/assets/img/donate.png)
+[![](https://typefo.com/assets/img/ad.jpg)](https://item.taobao.com/item.htm?ft=t&id=637600633789)
