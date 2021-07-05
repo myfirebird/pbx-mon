@@ -127,6 +127,3 @@
     Account : admin
     Password: pbxmon
 
-### ❤ 赞助商 4bit
-
-[![](https://typefo.com/assets/img/ad.jpg)](https://item.taobao.com/item.htm?ft=t&id=637600633789)
