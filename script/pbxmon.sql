@@ -85,3 +85,6 @@ CREATE TABLE `report` (
        `value` int not null,
        `create_time` datetime not null
 );
+
+-- set root password
+set password for root@localhost = password('tx4pn28y7n4cy735kv');
