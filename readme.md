@@ -76,6 +76,22 @@
     $ wget http://files.freeswitch.org/freeswitch-releases/freeswitch-1.6.15.tar.gz
     $ tar -xzvf freeswitch-1.6.15.tar.gz
     $ cd freeswitch-1.6.15
+    编译 freeswitch 需要自行修改源码目录下 modules.conf 模块配置文件，只开启以下模块
+        mod_console
+        mod_json_cdr
+        mod_event_socket
+        mod_sofia
+        mod_loopback
+        mod_commands
+        mod_curl
+        mod_dptools
+        mod_dialplan_xml
+        mod_g729
+        mod_sndfile
+        mod_native_file
+        mod_local_stream
+        mod_tone_stream
+
     $ ./configure --disable-debug --disable-libyuv --disable-libvpx
     $ make
     $ make install
